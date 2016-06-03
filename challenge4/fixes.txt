@@ -1,0 +1,3 @@
+CODE.JS
+  Fixed infinite while loop (line 12) by replacing with for loop
+  No need for slice, pushing random index instead

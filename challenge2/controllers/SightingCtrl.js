@@ -8,7 +8,7 @@ module.exports = {
       if (!err) {
         res.send(result);
       }
-      res.status(500).send(err);
+      res.status(500);
     });
   },
 
@@ -20,7 +20,7 @@ module.exports = {
         if (!err) {
           res.send(result);
         }
-        res.status(500).send(err);
+        res.status(500);
       });
   },
 
@@ -29,7 +29,7 @@ module.exports = {
       if (!err) {
         res.send(result);
       }
-      res.status(500).send(err);
+      res.status(500);
     });
   },
 
@@ -38,7 +38,7 @@ module.exports = {
       if (!err) {
         res.send(result);
       }
-      res.status(500).send(err);
+      res.status(500);
     });
   }
 };

@@ -1,0 +1,6 @@
+NPM install.
+
+
+SERVER
+  TYPO "raed" (server.js - LINE 20)
+  Removed .send from error handling in SightingCtrl. (can't set headers after they are sent)

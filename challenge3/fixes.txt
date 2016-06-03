@@ -1,0 +1,12 @@
+ROUTER
+  Incorrect templateUrls (Tmpl.html rather than Template.html app.js - LINES 8, 14, 18)
+  Various missing semicolon
+  Changed :productid to :id (line 17)
+INDEX
+  LINES 17 && 18
+    "products" rather than "product"
+CONTROLLERS
+  ProductsCtrl:
+    miss-spelled shoe (line 5)
+SERVICE
+  changed VAR to THIS

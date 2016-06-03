@@ -1,0 +1,7 @@
+ROUTER
+  Missing end-tag on script injection (index.html - LINE 31)
+  Moved ng-app to body tag from html. (unnecessary)
+  Various missing brackets in controllers.
+  Missing commas in state config (app.js - LINES 6, 11, 16)
+SERVICES
+  ProductService: changed from THIS to var
